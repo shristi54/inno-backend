@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class InnoController {
 
-    private static final Logger log = LoggerFactory.getLogger(InnoController.class);
+    //private static final Logger log = LoggerFactory.getLogger(InnoController.class);
 
     @GetMapping("/test")
     public String test(){
